@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter 5</title>
+</head>
+<body>
+    <h2>Percentage Calculation</h2>
+    <script>
+        // Store total marks and marks obtained
+        var totalMarks = 980;
+        var marksObtained = 804;
+
+        // Compute the percentage
+        var percentage = (marksObtained / totalMarks) * 100;
+
+        // Display the result in the browser
+        document.write("Total Marks: " + totalMarks + "<br>");
+        document.write("Marks Obtained: " + marksObtained + "<br>");
+        document.write("Percentage: " + percentage + "%" );
+
+//######################################################################
+
+ //  MarkSheet
+ // Exchange rates
+ document.write("<h2>Total amount of US dollars and Saudi Riyals</h2>")
+const usdToPKR = 104.80;
+const sarToPKR = 28;
+
+// Total amount of US dollars and Saudi Riyals
+const totalUSD = 10;
+const totalSAR = 25;
+
+// Convert total currency to PKR in a single expression
+const totalPKR = (totalUSD * usdToPKR) + (totalSAR * sarToPKR);
+
+// Display the total currency in PKR
+document.write("USDToPKR:" + usdToPKR + "<br>");
+document.write("SARTOPKR:" + sarToPKR + "<br>");
+document.write("TotalUSD:" + totalUSD + "<br>");
+document.write("TotalSAR:" + totalSAR + "<br>");
+document.write('<br>'+"Total Currency in PKR:", totalPKR);
+
+//#####################################################
+
+ // Define the prices and quantities
+ document.write("<h2>Define the prices and quantities</h2>")
+ var priceItem1 = 650;
+        var quantityItem1 = 3;
+        var priceItem2 = 100;
+        var quantityItem2 = 7;
+        var shippingCharges = 100;
+        
+
+        // Calculate the total cost
+        var totalCost = (priceItem1 * quantityItem1) + (priceItem2 * quantityItem2) + shippingCharges;
+
+
+        // Display the receipt
+        document.write("Quantity Item::" + quantityItem1 + "<br>");
+        document.write("Price Item::" + priceItem2 + "<br>");
+        document.write("Quantity Item2::" + quantityItem2+ "<br>");
+        document.write("Shipping Charges::" + shippingCharges+ "<br>");
+        document.write("<p>Total cost of your order is " + totalCost + "</p>");
+    </script>
+    
+</body>
+</html>
+
+
+  
+    
+  
